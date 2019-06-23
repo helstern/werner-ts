@@ -1,0 +1,52 @@
+{
+  "name": "@helstern/werner-ts",
+  "version": "0.0.0",
+  "description": "an object mapper using definitions instead of annotations, written in typescript",
+  "keywords": [
+    "object",
+    "mapper"
+  ],
+  "author": "radu helstern <radu.helstern@gmail.com>",
+  "homepage": "https://github.com/helstern/werner-ts",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "src/main/javascript/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "src/main/test"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helstern/werner-ts.git"
+  },
+  "scripts": {
+    "build": "tsc --diagnostics",
+    "watch": "tsc --watch",
+    "clean": "rm -rf lib",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint --fix -p tsconfig.json",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "test:types": "tsc --noEmit"
+  },
+  "bugs": {
+    "url": "https://github.com/helstern/werner-ts/issues"
+  },
+  "peerDependencies": {
+    "generic-type-guard": "^3.0.1"
+  },
+  "devDependencies": {
+    "generic-type-guard": "^3.0.1",
+    "prettier": "^1.16.4",
+    "jest": "^24.0.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.1"
+  }
+}
