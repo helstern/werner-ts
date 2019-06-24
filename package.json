@@ -16,7 +16,8 @@
     "test": "src/main/test"
   },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "publishConfig": {
     "access": "public"
