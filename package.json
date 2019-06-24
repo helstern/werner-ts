@@ -1,6 +1,6 @@
 {
   "name": "@helstern/werner-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "an object mapper using definitions instead of annotations, written in typescript",
   "keywords": [
     "object",
